@@ -1,0 +1,15 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": " uglifyjs src/js/index.js -m -o src/js/index.min.js -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.70.2"
+  }
+}
